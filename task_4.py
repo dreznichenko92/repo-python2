@@ -1,8 +1,12 @@
+# 4. Пользователь вводит целое положительное число. Найдите самую большую цифру в числе.
+# Для решения используйте цикл while и арифметические операции.
+
 number = int(input("Введите число: "))
-maxnumber = -1
+max_number = -1
 
 while number > 0:
     num = number % 10
-    maxnumber = max(maxnumber, num)
+    max_number = max(max_number, num)
     number //= 10
-print(maxnumber)
+print('Максимальная цифра в вашем числе:', max_number)
+
