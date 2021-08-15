@@ -6,4 +6,3 @@ while number > 0:
     maxnumber = max(maxnumber, num)
     number //= 10
 print(maxnumber)
-
